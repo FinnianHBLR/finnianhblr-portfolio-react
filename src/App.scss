@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.arrowDiv{
+  /* Add padding to arrow. */
+  padding: 20px;
+}
+
+.bottom-arrow:after {
+  margin-top: 5px;
+  /* Fix centering */
+  margin-left: -50px;
+  content:'';
+  position: absolute;
+  border-top: 25px solid #1689cc;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+nav {
+  overflow: hidden;
+  background-color: rgb(69, 143, 223);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  ul {
+    /* Unordered list items */
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    li {
+      display: inline;
+      a {
+        /* Color and padding for each list item */
+        color: #f2f2f2;
+        padding: 10%;
+
+        &:hover {
+          background-color: #5D5D5D;
+        }
+      }
+    }
+  }
+}
