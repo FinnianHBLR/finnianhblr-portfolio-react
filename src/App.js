@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.scss';
 import projects from './data/projects.json'
+import skills from './data/skills.json'
 
 function App() {
 
@@ -13,23 +14,49 @@ function App() {
     </div>
   );
 
-  // Render multiple cards
-  const renderCards = () => {
+  // Render multiple cards. Use "projects" import, then map that to data - as well as a key.
+  const renderProjectCards = () => {
     return (
-      <div>
+      <div className='projectCardsContainer'>
 
-      {projects.map((data, key) => {
-        return (
-          <div key={key}>
-            {data.title}
-          </div>
-        );
-      })}
-    </div>
-    )  
+        {projects.map((data, key) => {
+          return (
+            <div className='projectCard'>
+              <img src="placeHolder" alt={"PLACEHOLDER " + data.title} />
+              <div className='projectCardContainer'>
+                <h4><b>{"KEY " + key}</b></h4>
+                <p>{"TITLE " + data.title}</p>
+              </div>
+              <p>TAGS</p>
+            </div>
+
+          );
+        }
+        )
+        }
+      </div>
+    )
   }
-  
-  
+
+  const renderSkillCards = () => {
+    return (
+      <div className='projectCardsContainer'>
+
+        {skills.map((data, key) => {
+          return (
+            <div className='projectCard'>
+              <img src="logoPlaceHolder" alt="LogoPlaceHolder" />
+              <h2>{data.skill}</h2>
+            </div>
+          );
+        }
+        )
+        }
+      </div>
+    )
+  }
+
+
   return (
     <div className="App">
 
@@ -46,16 +73,22 @@ function App() {
       <header className="App-header">
         <h1 className=''>Hello! My name is Finnian and this is my portfolio.</h1>
       </header>
-      <div className='arrowDiv'>
-        <div className="bottom-arrow"></div>
+    
+      <div className='projectTitle'>
+        <h1>Projects</h1>
       </div>
-      <h3>dsa</h3>
-      <ul>
-        <li>Projects</li>
-        <li>Skills</li>
-      </ul>
+      {renderProjectCards()}
 
-      {renderCards()}
+      <div className='skillTitle'>
+        <h1>Skills</h1>
+      </div>
+      {renderSkillCards()}
+
+      <footer>
+        <p>CONTACT</p>
+        <p>Made in React.</p>
+      </footer>
+
     </div>
   );
 }
