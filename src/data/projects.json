@@ -1,8 +1,22 @@
 [
     {
-        "title": "First Project"
+        "title": "NASA React Fetcher",
+        "Description": "This project is a tool created to access the publically accessible NASA API. I love NASA, that's why and there is lots of cool API stuff I want to show people who aren't techie.",
+        "tags": ["Java", "CSS", "HTML", "React"],
+        "link": "https://github.com/FinnianHBLR/NASA-React-Fetcher"
     },
     {
-        "title": "Second Project"
+        "title": "Second Project",
+        "Description": "none",
+        "tags": ["Java", "CSS"],
+        "link": "google.com"
+
+    },
+    {
+        "title": "Third Project",
+        "Description": "none",
+        "tags": ["Java", "CSS"],
+        "link": "google.com"
+
     }
 ]

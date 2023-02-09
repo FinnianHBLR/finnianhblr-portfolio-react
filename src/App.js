@@ -1,18 +1,12 @@
-import React, { useEffect, useState } from 'react';
-
 import logo from './logo.svg';
 import './App.scss';
-import projects from './data/projects.json'
-import skills from './data/skills.json'
+import projects from './data/projects.json';
+import skills from './data/skills.json';
+import gitLogo from './images/github.svg';
 
 function App() {
 
-  // Define card
-  const Card = (props) => (
-    <div className='card'>
-      <h1>{props.title}</h1>
-    </div>
-  );
+
 
   // Render multiple cards. Use "projects" import, then map that to data - as well as a key.
   const renderProjectCards = () => {
@@ -22,12 +16,25 @@ function App() {
         {projects.map((data, key) => {
           return (
             <div className='projectCard'>
-              <img src="placeHolder" alt={"PLACEHOLDER " + data.title} />
               <div className='projectCardContainer'>
-                <h4><b>{"KEY " + key}</b></h4>
-                <p>{"TITLE " + data.title}</p>
+                <h1>{data.title}</h1>
+                {/*<img src="placeHolder" alt={"PLACEHOLDER " + data.title} />*/}
+                <p>{data.Description}</p>
+                <a href={data.link} target="_blank">{data.link}</a>
+
+
+                {/* For each item, map the array of skills used in the project. Also using colorDef+data to refer to a background color for little cards depending on the skill*/}
+                <div className='littleCardContainer'>
+                {data.tags.map((data, key) => {
+                  return (
+                  <div className={"littleCard " + "colorDef"+data}><p>{data}</p></div>
+                  )
+                }
+                )
+                }
+                
+                </div>
               </div>
-              <p>TAGS</p>
             </div>
 
           );
@@ -55,34 +62,52 @@ function App() {
       </div>
     )
   }
-
+  function Header() {
+    // Import result is the URL of your image
+    return <img src={gitLogo} className="gitLogo" alt="Logo" width="40" height="40" />;
+  }
 
   return (
     <div className="App">
 
-      <div id="navigation-bar">
-        <nav>
-          <ul>
-            <li><a href="#" id="logo">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Skills</a></li>
-          </ul>
-        </nav>
+
+      <section class="top-nav">
+        <div className='title'>
+          Finnian Logan-Riley Portfolio
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+          <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+          <li><a className='linkRemove' href="#home" >Home</a></li>
+          <li><a href="#projectSection">Projects</a></li>
+          <li><a href="#skillSection">Skills</a></li>
+          <li><a href='https://github.com/FinnianHBLR' target="_blank">My GitHub</a></li>
+        </ul>
+      </section>
+
+      <div id="home">
+        <header className="App-header">
+          <h1 className=''>Hello! My name is Finnian and this is my portfolio.</h1>
+        </header>
       </div>
 
-      <header className="App-header">
-        <h1 className=''>Hello! My name is Finnian and this is my portfolio.</h1>
-      </header>
-    
-      <div className='projectTitle'>
-        <h1>Projects</h1>
+      <div className='projects' id='projectSection'>
+        <div className='projectTitle'>
+          <h1>Projects</h1>
+          <hr></hr>
+        </div>
+        {renderProjectCards()}
       </div>
-      {renderProjectCards()}
+      <div className='skills' id='skillSection'>
+        <div className='skillTitle'>
+          <h1>Skills</h1>
+          <hr></hr>
+        </div>
+        {renderSkillCards()}
+      </div>
 
-      <div className='skillTitle'>
-        <h1>Skills</h1>
-      </div>
-      {renderSkillCards()}
 
       <footer>
         <p>CONTACT</p>
