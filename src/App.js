@@ -80,10 +80,11 @@ function App() {
           <div class='menu-button'></div>
         </label>
         <ul class="menu">
-          <li><a className='linkRemove' href="#home" >Home</a></li>
+          <li><a href="#home" >Home</a></li>
           <li><a href="#projectSection">Projects</a></li>
           <li><a href="#skillSection">Skills</a></li>
           <li><a href='https://github.com/FinnianHBLR' target="_blank">My GitHub</a></li>
+          <li><a href='#contact'>Contact</a></li>
         </ul>
       </section>
 
@@ -109,9 +110,11 @@ function App() {
       </div>
 
 
-      <footer>
-        <p>CONTACT</p>
-        <p>Made in React.</p>
+      <footer id='contact'>
+        <h1>CONTACT</h1>
+        <hr></hr>
+        <h2>finnianhlr@gmail.com  | +64 274448158</h2>
+        <p>Made in React by Finnian Logan-Riley.</p>
       </footer>
 
     </div>

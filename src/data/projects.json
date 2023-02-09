@@ -1,22 +1,70 @@
 [
     {
         "title": "NASA React Fetcher",
-        "Description": "This project is a tool created to access the publically accessible NASA API. I love NASA, that's why and there is lots of cool API stuff I want to show people who aren't techie.",
-        "tags": ["Java", "CSS", "HTML", "React"],
+        "Description": "This project is a tool created to access the publically accessible NASA API. I love NASA, that's why and there is lots of cool API stuff I want to show people who aren't techie. From pulling the lastest image of earth to satellite locating and plotting, it's here!",
+        "tags": ["JavaScript", "Python", "Remote-Build","CSS", "HTML", "React", "NextJS"],
         "link": "https://github.com/FinnianHBLR/NASA-React-Fetcher"
     },
     {
-        "title": "Second Project",
-        "Description": "none",
-        "tags": ["Java", "CSS"],
-        "link": "google.com"
+        "title": "AWS S3 Airspace Simulator",
+        "Description": "This is created to use AWS buckets on the storage service s3! It will be a flight sync system for virtual planes to AWS servers.",
+        "tags": ["Java", "AWS", "S3"],
+        "link": "https://github.com/FinnianHBLR/waterbucket-java-aws-s3"
 
     },
     {
-        "title": "Third Project",
-        "Description": "none",
-        "tags": ["Java", "CSS"],
-        "link": "google.com"
+        "title": "Heart Disease Prediction",
+        "Description": "I consider this my magnum opus of data processing. Notability in this project I have created a KNN imputer to repair the data. Hypothesis - Is it possible to predict heart disease events?",
+        "tags": ["Python", "Jupyter", "Data", "AI", "Pandas", "NumPy"],
+        "link": "https://github.com/FinnianHBLR/Health-Data-Project---Heart-Failure-Prediction"
 
+    },
+    {
+        "title": "TypeScript DataChanger",
+        "Description": "Project to learn TypeScript.",
+        "tags": ["TypeScript"],
+        "link": "https://github.com/FinnianHBLR/TS-DataChanger"
+    },
+    {
+        "title": "New York Taxi Data Processing Project",
+        "Description": "This is a data analysis project with Taxi data from New York. This was worked on with 3 great team members from around the globe!",
+        "tags": ["Python", "Pandas", "Sklearn"],
+        "link": "https://github.com/FinnianHBLR/data-science-ml"
+    },
+    {
+        "title": "Data science prediction for SmartBuild",
+        "Description": "Using data to predict the quality of products based on input parameters.",
+        "tags": ["Python", "Pandas", "Sklearn", "SciPy"],
+        "link": "https://github.com/FinnianHBLR/data-science-prediction"
+    },
+    {
+        "title": "Nuclear Craft OpenComputer Mainframes Minecraft",
+        "Description": "A virtual mainframe for a modded version of the game Minecraft. This code is designed to be a multi-nuclear reactor, gas turbine and backup-diesel electrical automatic system manager.",
+        "tags": ["Lua"],
+        "link": "https://github.com/FinnianHBLR/NC-OpenComputer-Mainframes"
+    },
+    {
+        "title": "Student covid data analysis",
+        "Description": "Using data analysis to understand studnet needs. This is deeply around the discussion around remote learning.",
+        "tags": ["Python", "NumPy", "Pandas"],
+        "link": "https://github.com/FinnianHBLR/student-covid-furtwangen-code"
+    },    
+    {
+        "title": "AWS DeepRacer Project",
+        "Description": "An AI team robot racing competition I competed in by Amazon Web Services.",
+        "tags": ["Python", "AI"],
+        "link": "https://github.com/FinnianHBLR/DeepRacerProject"
+    },    
+    {
+        "title": "MQTT Project",
+        "Description": "This is an encrypted MQTT ",
+        "tags": ["Python", "MQTT"],
+        "link": "https://github.com/FinnianHBLR/MQTT-Assessment-2"
+    },
+    {
+        "title": "PC Builder Memory",
+        "Description": "A simple card matching game in C#",
+        "tags": ["C#"],
+        "link": "https://github.com/FinnianHBLR/PCBuilderMemory"
     }
 ]
