@@ -4,6 +4,8 @@ Using
 * JavaScript
 * React Native App
 * SASS
+* React GitHub pages
+* React Helmet
 
 ### `npm start`
 ### `npm test`

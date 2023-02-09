@@ -3,6 +3,7 @@ import './App.scss';
 import projects from './data/projects.json';
 import skills from './data/skills.json';
 import gitLogo from './images/github.svg';
+import {Helmet} from "react-helmet";
 
 function App() {
 
@@ -11,8 +12,10 @@ function App() {
   // Render multiple cards. Use "projects" import, then map that to data - as well as a key.
   const renderProjectCards = () => {
     return (
+    
+    
       <div className='projectCardsContainer'>
-
+      
         {projects.map((data, key) => {
           return (
             <div className='projectCard'>
@@ -69,7 +72,9 @@ function App() {
 
   return (
     <div className="App">
-
+          <Helmet>
+      <title>Finnian Logan-Riley Portfolio</title>        
+      </Helmet>
 
       <section class="top-nav">
         <div className='title'>
