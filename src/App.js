@@ -3,7 +3,7 @@ import './App.scss';
 import projects from './data/projects.json';
 import skills from './data/skills.json';
 import gitLogo from './images/github.svg';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 function App() {
 
@@ -12,10 +12,8 @@ function App() {
   // Render multiple cards. Use "projects" import, then map that to data - as well as a key.
   const renderProjectCards = () => {
     return (
-    
-    
       <div className='projectCardsContainer'>
-      
+
         {projects.map((data, key) => {
           return (
             <div className='projectCard'>
@@ -28,14 +26,15 @@ function App() {
 
                 {/* For each item, map the array of skills used in the project. Also using colorDef+data to refer to a background color for little cards depending on the skill*/}
                 <div className='littleCardContainer'>
-                {data.tags.map((data, key) => {
-                  return (
-                  <div className={"littleCard " + "colorDef"+data}><p>{data}</p></div>
+                  {data.tags.map((data, key) => {
+                    return (
+                      /* Set a tag to div element of skill, so it links to the skill when clicked. */
+                      <div className={"littleCard " + "colorDef" + data}><a href={'#'+data}><p>{data}</p></a></div>
+                    )
+                  }
                   )
-                }
-                )
-                }
-                
+                  }
+
                 </div>
               </div>
             </div>
@@ -55,8 +54,13 @@ function App() {
         {skills.map((data, key) => {
           return (
             <div className='projectCard'>
-              <img src="logoPlaceHolder" alt="LogoPlaceHolder" />
-              <h2>{data.skill}</h2>
+
+              <div className='skillLogoContainer' id={data.skill}>
+                <div className={'skillLogo' + data.image}>
+                </div>
+              </div>
+              <h3>{data.skill}</h3>
+              <p>Summary</p>
             </div>
           );
         }
@@ -72,8 +76,8 @@ function App() {
 
   return (
     <div className="App">
-          <Helmet>
-      <title>Finnian Logan-Riley Portfolio</title>        
+      <Helmet>
+        <title>Finnian Logan-Riley Portfolio</title>
       </Helmet>
 
       <section class="top-nav">

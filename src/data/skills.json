@@ -1,8 +1,26 @@
 [
     {
-        "skill": "Java"
+        "skill": "Java",
+        "image": "Java"
     },
     {
-        "skill": "C#"
+        "skill": "C#",
+        "image": "CSharp"
+    },
+    {
+        "skill": "Python",
+        "image": "Python"
+    },
+    {
+        "skill": "TypeScript",
+        "image": "TypeScript"
+    },
+    {
+        "skill": "JavaScript",
+        "image": "JavaScript"
+    },
+    {
+        "skill": "React",
+        "image": "React"
     }
 ]

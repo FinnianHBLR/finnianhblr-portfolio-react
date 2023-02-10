@@ -262,98 +262,271 @@ footer {
 .colorDefJava{
   background-color: #e88242;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
 }
 
 .colorDefCSS{
   background-color: #2f50f5;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
 }
 
 .colorDefHTML{
   background-color: #C73E1D;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
 }
 
 .colorDefReact{
   background-color: #00BAF0;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
 }
 
 .colorDefAWS{
   background-color: #f06c00;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
 }
 .colorDefS3{
   background-color: #a82020;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
 }
 
 .colorDefAI{
   background-color: #37da37;
   color: #FFF;
+  
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
 }
 
 .colorDefData{
   background-color: #6fe2c1;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
 }
 
 .colorDefTypeScript{
   background-color: #0080f0;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
 }
 
 .colorDefPython{
   background-color: #f7e91f;
   color: #000000;
 
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
+
 }
 .colorDefPandas{
   background-color: #241058;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
 }
 
 .colorDefSklearn{
   background-color: #ffa500;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
 }
 
 .colorDefNumPy{
   background-color: #268dd1;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
 }
 
 .colorDefSciPy{
   background-color: #1a5488;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+
+  }
 }
 
 .colorDefLua{
   background-color: #0b0b71;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+
+  }
 }
 
 .colorDefNextJS{
   background-color: black;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+
+  }
 }
 
 .colorDefMQTT {
   background-color: #800080;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+
+  }
 }
 
 .colorDefJupyter{
   background-color: #ff8000;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
 }
 
 .colorDefJavaScript{
   background-color: #efd511;
   color: #000000;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
 }
 
 .colorDefRemote-Build{
   background-color: #b00101;
   color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
+}
+
+// ---------- Skills
+
+.skillLogoContainer{
+  padding-top: 6px;
+  display: flex;
+  justify-content: center;
+  /* Offset scroll to make room for Nabar when a skill is clicked in the tags of a project. */
+  scroll-margin-top: 7em;
+}
+
+.skillLogoJava {
+/* Logo For Java. */
+  width: 30%;
+  height: 30%;
+  content: url("images/javaLogo.png");
+}
+
+.skillLogoCSharp {
+  /* Logo For Java. */
+  width: 15%;
+  height: 15%;
+  content: url("images/CSharp.png");
+}
+
+.skillLogoPython{
+  width: 15%;
+  height: 15%;
+  content: url("images/pythonLogo.svg");
+
+}
+
+.skillLogoTypeScript{
+  width: 13%;
+  height: 13%;
+  content: url("images/Typescript.svg");
+}
+
+.skillLogoJavaScript{
+  height: 13%;
+  width: 13%;
+  content: url("images/JavaScript.png");
+}
+
+.skillLogoReact{
+  height: 13%;
+  width: 13%;
+  content: url("images/React.svg");
 }
