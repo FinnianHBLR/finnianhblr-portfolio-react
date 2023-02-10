@@ -104,7 +104,11 @@ function App() {
           <h1 className=''>Hello! My name is Finnian and this is my portfolio.</h1>
         </header>
       </div>
-
+      <div className='personalStatementContainer'><h1>Personal statement</h1>
+        <h3>I am a software developer and I am a recent graduate of both Furtwangen University in Germany (BSc,
+          International Business Information Systems), and the Eastern Institute of Technology in New Zealand (BCS,
+          Intelligent Systems)</h3>
+      </div>
       <div className='projects' id='projectSection'>
         <div className='projectTitle'>
           <h1>Notable Projects</h1>
