@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/finnianhblr-portfolio-react/static/css/main.cbb96df6.css",
-    "main.js": "/finnianhblr-portfolio-react/static/js/main.d887d286.js",
+    "main.css": "/finnianhblr-portfolio-react/static/css/main.7381c69f.css",
+    "main.js": "/finnianhblr-portfolio-react/static/js/main.64f39191.js",
     "static/js/787.a9d5af7f.chunk.js": "/finnianhblr-portfolio-react/static/js/787.a9d5af7f.chunk.js",
     "static/media/titleBackground.png": "/finnianhblr-portfolio-react/static/media/titleBackground.74c500e20f1e6e604939.png",
+    "static/media/Remote-Build.png": "/finnianhblr-portfolio-react/static/media/Remote-Build.561f1f0de0421e7499d0.png",
+    "static/media/htmlcss.png": "/finnianhblr-portfolio-react/static/media/htmlcss.4c3401acd538498e2eec.png",
+    "static/media/AI.svg": "/finnianhblr-portfolio-react/static/media/AI.b1d00822d6f4223ae865.svg",
     "static/media/CSharp.png": "/finnianhblr-portfolio-react/static/media/CSharp.e2e4b2f0ba8f3e1196fc.png",
+    "static/media/handShake.png": "/finnianhblr-portfolio-react/static/media/handShake.30f2bb1a922d8d9b3a6d.png",
     "static/media/JavaScript.png": "/finnianhblr-portfolio-react/static/media/JavaScript.266bd9fb2663dcc057b4.png",
     "static/media/pythonLogo.svg": "/finnianhblr-portfolio-react/static/media/pythonLogo.90a37ab8213f531de737.svg",
+    "static/media/Docker.svg": "/finnianhblr-portfolio-react/static/media/Docker.74f5e987475b2b47195b.svg",
+    "static/media/AWS-S3.svg": "/finnianhblr-portfolio-react/static/media/AWS-S3.cc38dbe9487d55943d42.svg",
+    "static/media/IoT.svg": "/finnianhblr-portfolio-react/static/media/IoT.bb387e2842394cdf514f.svg",
     "static/media/logo.svg": "/finnianhblr-portfolio-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Lua.svg": "/finnianhblr-portfolio-react/static/media/Lua.94b96a6c7f17217f9d35.svg",
+    "static/media/C++.svg": "/finnianhblr-portfolio-react/static/media/C++.2441702dffa95ca3c92c.svg",
     "static/media/Typescript.svg": "/finnianhblr-portfolio-react/static/media/Typescript.9ad81d2e09b9cd2265cd.svg",
     "static/media/github.svg": "/finnianhblr-portfolio-react/static/media/github.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/finnianhblr-portfolio-react/index.html",
     "static/media/React.svg": "/finnianhblr-portfolio-react/static/media/React.928f956d9c8ebcffb98a.svg",
-    "main.cbb96df6.css.map": "/finnianhblr-portfolio-react/static/css/main.cbb96df6.css.map",
-    "main.d887d286.js.map": "/finnianhblr-portfolio-react/static/js/main.d887d286.js.map",
+    "main.7381c69f.css.map": "/finnianhblr-portfolio-react/static/css/main.7381c69f.css.map",
+    "main.64f39191.js.map": "/finnianhblr-portfolio-react/static/js/main.64f39191.js.map",
     "787.a9d5af7f.chunk.js.map": "/finnianhblr-portfolio-react/static/js/787.a9d5af7f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbb96df6.css",
-    "static/js/main.d887d286.js"
+    "static/css/main.7381c69f.css",
+    "static/js/main.64f39191.js"
   ]
 }
