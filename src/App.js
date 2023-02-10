@@ -59,7 +59,7 @@ function App() {
                 <div className={'skillLogo' + data.image}></div>
               </div>
               <div className='skillSummaryContainer'>
-              <h3>{data.skill}</h3>
+              <h2>{data.skill}</h2>
                 <hr></hr>
               <p>{data.summary}</p>
               </div>
