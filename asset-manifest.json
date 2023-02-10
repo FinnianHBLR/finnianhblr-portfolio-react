@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/finnianhblr-portfolio-react/static/css/main.7381c69f.css",
-    "main.js": "/finnianhblr-portfolio-react/static/js/main.64f39191.js",
+    "main.js": "/finnianhblr-portfolio-react/static/js/main.b78852bb.js",
     "static/js/787.a9d5af7f.chunk.js": "/finnianhblr-portfolio-react/static/js/787.a9d5af7f.chunk.js",
     "static/media/titleBackground.png": "/finnianhblr-portfolio-react/static/media/titleBackground.74c500e20f1e6e604939.png",
     "static/media/Remote-Build.png": "/finnianhblr-portfolio-react/static/media/Remote-Build.561f1f0de0421e7499d0.png",
@@ -22,11 +22,11 @@
     "index.html": "/finnianhblr-portfolio-react/index.html",
     "static/media/React.svg": "/finnianhblr-portfolio-react/static/media/React.928f956d9c8ebcffb98a.svg",
     "main.7381c69f.css.map": "/finnianhblr-portfolio-react/static/css/main.7381c69f.css.map",
-    "main.64f39191.js.map": "/finnianhblr-portfolio-react/static/js/main.64f39191.js.map",
+    "main.b78852bb.js.map": "/finnianhblr-portfolio-react/static/js/main.b78852bb.js.map",
     "787.a9d5af7f.chunk.js.map": "/finnianhblr-portfolio-react/static/js/787.a9d5af7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7381c69f.css",
-    "static/js/main.64f39191.js"
+    "static/js/main.b78852bb.js"
   ]
 }
