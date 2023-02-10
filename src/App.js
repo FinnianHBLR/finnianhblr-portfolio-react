@@ -56,11 +56,13 @@ function App() {
             <div className='projectCard'>
 
               <div className='skillLogoContainer' id={data.skill}>
-                <div className={'skillLogo' + data.image}>
-                </div>
+                <div className={'skillLogo' + data.image}></div>
               </div>
+              <div className='skillSummaryContainer'>
               <h3>{data.skill}</h3>
-              <p>Summary</p>
+                <hr></hr>
+              <p>{data.summary}</p>
+              </div>
             </div>
           );
         }
@@ -105,7 +107,7 @@ function App() {
 
       <div className='projects' id='projectSection'>
         <div className='projectTitle'>
-          <h1>Projects</h1>
+          <h1>Notable Projects</h1>
           <hr></hr>
         </div>
         {renderProjectCards()}

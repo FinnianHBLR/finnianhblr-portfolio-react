@@ -125,7 +125,7 @@ hr {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1030px) {
   .menu-button-container {
     display: flex;
   }
@@ -213,8 +213,13 @@ hr {
   border-radius: 5px;
   margin: 20px;
   /* Add background color to the cards to make them white. */
-  background-color: #f2f2f2;
+  background-color: #4a4a4a;
   width: 500px;
+  color: #FFF;
+  a{
+    color: rgb(255, 145, 0);
+    font-size: large;
+  }
 }
 .projectCard:hover {
   /* When hover, change shadow... cool! */
@@ -261,7 +266,6 @@ footer {
 
 .colorDefJava{
   background-color: #e88242;
-  color: #FFF;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -272,7 +276,6 @@ footer {
 
 .colorDefCSS{
   background-color: #2f50f5;
-  color: #FFF;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -281,9 +284,8 @@ footer {
   }
 }
 
-.colorDefHTML{
+.colorDefHTML-CSS{
   background-color: #C73E1D;
-  color: #FFF;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -294,7 +296,6 @@ footer {
 
 .colorDefReact{
   background-color: #00BAF0;
-  color: #FFF;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -303,19 +304,8 @@ footer {
   }
 }
 
-.colorDefAWS{
+.colorDefAWS-S3{
   background-color: #f06c00;
-  color: #FFF;
-
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
-  }
-}
-.colorDefS3{
-  background-color: #a82020;
-  color: #FFF;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -324,20 +314,19 @@ footer {
   }
 }
 
-.colorDefAI{
+
+.colorDefAI {
   background-color: #37da37;
-  color: #FFF;
   
   a:hover, a:visited, a:link, a:active
   {
       text-decoration: none;
-      color: #FFF;
+      color: #000000;
   }
 }
 
-.colorDefData{
+.colorDefData {
   background-color: #6fe2c1;
-  color: #FFF;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -346,9 +335,8 @@ footer {
   }
 }
 
-.colorDefTypeScript{
+.colorDefTypeScript {
   background-color: #0080f0;
-  color: #FFF;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -357,20 +345,19 @@ footer {
   }
 }
 
-.colorDefPython{
+.colorDefPython {
   background-color: #f7e91f;
-  color: #000000;
 
   a:hover, a:visited, a:link, a:active
   {
       text-decoration: none;
-      color: #FFF;
+      color: #000000;
   }
 
 }
-.colorDefPandas{
+
+.colorDefPandas {
   background-color: #241058;
-  color: #FFF;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -379,9 +366,8 @@ footer {
   }
 }
 
-.colorDefSklearn{
+.colorDefSklearn {
   background-color: #ffa500;
-  color: #FFF;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -390,9 +376,8 @@ footer {
   }
 }
 
-.colorDefNumPy{
+.colorDefNumPy {
   background-color: #268dd1;
-  color: #FFF;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -401,19 +386,8 @@ footer {
   }
 }
 
-.colorDefSciPy{
-  background-color: #1a5488;
-  color: #FFF;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
-
-  }
-}
-
-.colorDefLua{
+.colorDefLua {
   background-color: #0b0b71;
   color: #FFF;
 
@@ -427,7 +401,6 @@ footer {
 
 .colorDefNextJS{
   background-color: black;
-  color: #FFF;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -436,10 +409,34 @@ footer {
 
   }
 }
+.colorDefFront-End{  background-color: #66e855;
 
-.colorDefMQTT {
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+
+  }}
+.colorDefBack-End{  background-color: #480a0a;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+
+  }}
+  
+.colorDefFull-Stack{  background-color: #bed140;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+
+  }}
+
+.colorDefIoT {
   background-color: #800080;
-  color: #FFF;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -449,31 +446,51 @@ footer {
   }
 }
 
-.colorDefJupyter{
-  background-color: #ff8000;
-  color: #FFF;
-
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
-  }
-}
 
 .colorDefJavaScript{
   background-color: #efd511;
-  color: #000000;
 
   a:hover, a:visited, a:link, a:active
   {
       text-decoration: none;
-      color: #FFF;
+      color: #000000;
   }
 }
 
 .colorDefRemote-Build{
   background-color: #b00101;
-  color: #FFF;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
+}
+
+.colorDefTeamwork{
+  background-color: #ff3c00;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
+}
+
+.colorDefC\#{
+  /* Use escape character for selector. */
+  background-color: #ff00f7;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
+
+}
+
+.colorDefDocker{
+  background-color: #1997ec;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -492,11 +509,63 @@ footer {
   scroll-margin-top: 7em;
 }
 
+.skillSummaryContainer{
+  padding: 10px;
+  
+}
+
 .skillLogoJava {
 /* Logo For Java. */
   width: 30%;
   height: 30%;
   content: url("images/javaLogo.png");
+}
+.skillLogoIoT {
+/* Logo For Java. */
+  width: 13%;
+  height: 13%;
+  content: url("images/C++.svg");
+}
+
+.skillLogoC\+\+ {
+  /* Logo For Java. */
+    width: 13%;
+    height: 13%;
+    content: url("images/C++.svg");
+  }
+
+.skillLogoAI {
+  /* Logo For Java. */
+  width: 20%;
+  height: 20%;
+  content: url("images/AI.svg");
+}
+
+.skillLogoIoT {
+  /* Logo For Java. */
+    width: 13%;
+    height: 13%;
+    content: url("images/IoT.svg");
+  }
+
+.skillLogoDocker {
+  /* Logo For Java. */
+  width: 30%;
+  height: 30%;
+  content: url("images/Docker.svg");
+}
+
+.skillLogoRemote-Build {
+  /* Logo For Java. */
+  width: 10%;
+  height: 10%;
+  content: url("images/Remote-Build.png");
+}
+
+.skillLogoHTML-CSS{
+  width: 25%;
+  height: 25%;
+  content: url("images/htmlcss.png");
 }
 
 .skillLogoCSharp {
@@ -519,6 +588,12 @@ footer {
   content: url("images/Typescript.svg");
 }
 
+.skillLogoTeamwork{
+  width: 13%;
+  height: 13%;
+  content: url("images/handShake.png");
+}
+
 .skillLogoJavaScript{
   height: 13%;
   width: 13%;
@@ -529,4 +604,16 @@ footer {
   height: 13%;
   width: 13%;
   content: url("images/React.svg");
+}
+
+.skillLogoLua{
+  height: 15%;
+  width: 15%;
+  content: url("images/Lua.svg");
+}
+
+.skillLogoAWS-S3 {
+  height: 15%;
+  width: 15%;
+  content: url("images/AWS-S3.svg");
 }

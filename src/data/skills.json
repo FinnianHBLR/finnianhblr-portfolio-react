@@ -1,26 +1,92 @@
 [
     {
-        "skill": "Java",
-        "image": "Java"
+        "skill": "Full-Stack",
+        "image": "Full-Stack",
+        "summary": "I have experience writing full stack applicatuions. This is as I have written applciations' back-end and front-end. Amoung personal project I completed an internship with the comapny Fingermark to create a fullstack applicaiton using MongoDB, ExspressJS, Socket.io HTML, CSS and JavaScript."    },
+    {
+        "skill": "Back-End",
+        "image": "Back-End",
+        "summary": "For back-end development I have experience in back-end frame works such as NodeJS, ExpressJs and NextJS for React development. I have also gained experience in other back-end technologies such as MongoDB and SQL."
     },
     {
-        "skill": "C#",
-        "image": "CSharp"
+        "skill": "Front-End",
+        "image": "Front-End",
+        "summary": "I have signifficant experience in front-end development. Since 2019 I have been activly creating web pages. Later on I have gained gained experience in technolgoies such as React."
+    },
+    {
+        "skill": "AI",
+        "image": "AI",
+        "summary": "During my studies I studied extensivly in the aritifical intilligence field. This is as it is always been a passion of mine. I have exsperince in models such as linear and logistic regression, KNN, K-nearest neighbor, XGBoost, data cleaning, exploring and repair. During these projects I have gianed exstensive experience in Python libaries such as Pandas, NumPy, Pandas, Sklearn, SciPy, matplotlib,"
     },
     {
         "skill": "Python",
-        "image": "Python"
-    },
-    {
-        "skill": "TypeScript",
-        "image": "TypeScript"
+        "image": "Python",
+        "summary": "I have become particually proficiant in Python, espically in data anlyis and AI. I have been creating Python projects since 2018."
     },
     {
         "skill": "JavaScript",
-        "image": "JavaScript"
+        "image": "JavaScript",
+        "summary": "I have used JavaScript very extensivly in my Internship, going as far as to make custom libaries to use internally. and other projects. I have also used NodeJS in many projects. I use this language often."
+    },
+    {
+        "skill": "TypeScript",
+        "image": "TypeScript",
+        "summary": "As I like typed languages and JavaScript is not I have got plenty of devlopment time with TypeScript as well as JavaSCript."
+    },
+    {
+        "skill": "Java",
+        "image": "Java",
+        "summary": "For OOP languages, Java is the language I have the most experience in. I have been able to best use these skills in my recent Java AWS S3 project."
+    },
+    {
+        "skill": "C#",
+        "image": "CSharp",
+        "summary": "Another OOP language is C#. I have used this langauge somewhat over the last few years, although I have the least experience in this language."
     },
     {
         "skill": "React",
-        "image": "React"
+        "image": "React",
+        "summary": "As I wanted to keep up to date with the latest tech I learnt React. I am still not at an expert level, but I have created many React applications using many different areas of React devlopment such as States, Hooks and component driven applications."
+    },
+    {
+        "skill": "IoT",
+        "image": "IoT",
+        "summary": "I have specialsed in the IoT field during my studies at the Eastern Institute of Technology. My internship was also in the field of IoT as we used conputer vision in security cameras to create health and safety software."
+    },
+    {
+        "skill": "AWS-S3",
+        "image": "AWS-S3",
+        "summary": "To learn software concpets I apply them to airports! As they are systems that can be virtualised, with easily recognisable objects. For AWS-S3 I found it relatively simple to apply this concept. I was able to create a simulator in Java that can  keep a live save of virtual airport activities online. I can't wait to use this tech on future jobs/projects."
+    },
+    {
+        "skill": "Lua",
+        "image": "Lua",
+        "summary": "I learnt Lua for fun! I found it easy to learn as it is not too differnt from other languages I already knew. As Lua was used in the OpenComputers mod for the game Minecraft, and I wanted to automate my electrical grid I needed a computerised manager. This system was required to manage two nuclear reactors, a gas-turbine and a diesel start-up generator. Although realitivly simple sounding, it's more complex than it seemed. But extremly fun!"
+    },
+    {
+        "skill": "C++",
+        "image": "C++",
+        "summary": "I have used C++ in many Arduino projects. Studing with a major in intilligent systems I coded a lot of Ardiono C++ for various robots and IoT projects. Although I will note that this is an Arduino flavor of C++ and not exactly the same as C++."
+    },
+    {
+        "skill": "HTML-CSS",
+        "image": "HTML-CSS",
+        "summary": "HTML and CSS is the first coding I ever did, creating a simple web page! Ever since 2017 I have been using these languages."
+    },    
+    {
+        "skill": "Docker",
+        "image": "Docker",
+        "summary": "I made sure to put time into learning Docker, as well as using it at my internship. I have learnt to make my own Docker files for React and NodeJS projects. Although I want to expand to Java programs and learning kubernetes."
+    },
+    {
+        "skill": "Remote-Build",
+        "image": "Remote-Build",
+        "summary": "For my projects I have wanted to learn how to build remotly. This is why I went and learnd how to do this with GitHub actions. This was done with the NASA React Fetcher project. One issie is that I am not yet able to figure out how to test that code!"
+    }, 
+    {
+        "skill": "Teamwork",
+        "image": "Teamwork",
+        "summary": "I have worked in many team projects, from AI robot cars to multiple Hackathons. I consider myself a hard working team player and do my best in these enviroments. I also have no problems getting a group together, leading and present our results."
     }
+
 ]
