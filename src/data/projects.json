@@ -1,88 +1,102 @@
 [
     {
         "title": "NASA React Fetcher",
-        "Description": "This project is a tool created to access the publically accessible NASA API. I love NASA, that's why and there is lots of cool API stuff I want to show people who aren't techie. From pulling the lastest image of earth to satellite locating and plotting, it's here!",
-        "tags": ["Full-Stack", "JavaScript", "Python", "Remote-Build","HTML-CSS", "React", "NextJS", "Docker", "Teamwork"],
+        "Description": "A-This project is a tool created to access the publically accessible NASA API. I love NASA, that's why and there is lots of cool API stuff I want to show people who aren't a techie. From pulling the latest image of earth, to satellite locating and plotting, it's here!",
+        "tags": ["Full Stack", "JavaScript", "Python", "Github Remote Build","HTML & CSS", "React", "NextJS", "Docker", "Teamwork"],
+        "identifiers": ["Full-Stack", "JavaScript", "Python", "Remote-Build","HTML-CSS", "React", "React", "Docker", "Teamwork"],
         "link": "https://github.com/FinnianHBLR/NASA-React-Fetcher"
     },
     {
         "title": "AWS S3 Airspace Simulator",
-        "Description": "This is created to use AWS buckets on the storage service s3! It will be a flight sync system for virtual planes to AWS servers.",
-        "tags": ["Back-End", "Java", "AWS-S3"],
+        "Description": "A-This project was created to use the AWS S3 buckets. It is a flight sync system for virtual planes to AWS servers. This also is designed to have multi-connection support.",
+        "tags": ["Back End", "Java", "AWS S3"],
+        "identifiers": ["Back-End", "Java", "AWS-S3"],
         "link": "https://github.com/FinnianHBLR/waterbucket-java-aws-s3"
 
     },
     {
         "title": "Heart Disease Prediction",
-        "Description": "I consider this my magnum opus of artificial intelligence. Notability in this project I have created a KNN imputer to repair the data. Hypothesis - Is it possible to predict heart disease events?",
+        "Description": "A-Artificial intelligence and data science are areas that I am deeply interested in, and I have studied extensively in them. This project covers areas such as exploratory analysis, data repair with a KNN imputer and full analysis with multiple models. Hypothesis - Is it possible to predict heart disease events?",
         "tags": ["Python", "AI"],
+        "identifiers": ["Python", "AI"],
         "link": "https://github.com/FinnianHBLR/Health-Data-Project---Heart-Failure-Prediction"
 
     },
     {
-        "title": "TypeScript DataChanger",
-        "Description": "Project to learn TypeScript. This is adapted from an original JavaScript project to learn JavaScript.",
-        "tags": ["TypeScript"],
-        "link": "https://github.com/FinnianHBLR/TS-DataChanger"
-    },
-    {
         "title": "New York Taxi Data Processing Project",
-        "Description": "This is a data analysis project with Taxi data from New York. This was worked on with 3 great team members from around the globe! This project is focused on both the analysis and the application to the business itself.",
+        "Description": "A- This team project was a data analysis project with taxi data from New York. I worked as the team lead and headed presenting these results. The project I led had three great team members from around the globe! This project was focused on both the analysis and the application of the results to the business itself.",
         "tags": ["Python", "AI", "Teamwork"],
+        "identifiers": ["Python", "AI", "Teamwork"],
         "link": "https://github.com/FinnianHBLR/data-science-ml"
     },
     {
         "title": "Data science prediction for SmartBuild",
-        "Description": "Using data to create models to predict the quality of products based on input parameters.  This project is focused on both the prediction models and the application to the business itself.",
+        "Description": "A-This data prediction project was another team project I led. This project used data to create models to predict the quality of products based on input parameters. This project was focused on both the prediction models and the application of these models to the business itself.",
         "tags": ["Python", "AI", "Teamwork"],
+        "identifiers": ["Python", "AI", "Teamwork"],
         "link": "https://github.com/FinnianHBLR/data-science-prediction"
     },
     {
+        "title": "TypeScript DataChanger",
+        "Description": "A- I created this TypeScript project to make sure I knew how TypeScript works. I didn't find it that difficult coming from Java, and I see its use in Node servers. I have had previous experience with TypeScipt, so this was to make sure it all made sense.",
+        "tags": ["TypeScript"],
+        "identifiers": ["TypeScript"],
+        "link": "https://github.com/FinnianHBLR/TS-DataChanger"
+    },
+    {
         "title": "Nuclear Craft OpenComputer Mainframes Minecraft",
-        "Description": "I have created a virtual mainframe for a modded version of the game Minecraft. This code is designed to be a multi-nuclear reactor, gas turbine and backup-diesel electrical automatic system manager.",
+        "Description": "A-This Lua application was a personal project. It was designed to create an automatic electrical system manager that was powerful and stable. This was coded for a modded version of the video game Minecraft. The Lua code was designed to be run on an in-game computer and was a multi-nuclear reactor, gas turbine peaker plant/backup power source with an automatic diesel starter engine.",
         "tags": ["Lua"],
+        "identifiers": ["Lua"],
         "link": "https://github.com/FinnianHBLR/NC-OpenComputer-Mainframes"
     },
     {
         "title": "Student covid data analysis",
         "Description": "I created this project using data analysis techniques to understand student needs. This is deeply around the discussion around remote learning amoung other questions.",
         "tags": ["Python", "AI"],
+        "identifiers": ["Python", "AI"],
         "link": "https://github.com/FinnianHBLR/student-covid-furtwangen-code"
     },    
     {
         "title": "AWS DeepRacer Project",
         "Description": "I have competed in an AI team robot racing competition by Amazon Web Services. Our model was not working on the day, so under a lot of pressure I wrote the current script that landed us 2nd place.",
         "tags": ["Python", "AI", "Teamwork"],
+        "identifiers": ["Python", "AI", "Teamwork"],
         "link": "https://github.com/FinnianHBLR/DeepRacerProject"
     },
     {
         "title": "GovHack 2019 Team io Localé",
         "Description": "Awards: StatsNZ Innovation Award, Dean’s Special Award, Civil Defence best Use of Data in a Civil Emergency, Proaxiom Getting Around 2nd place. - Localé is a tourism based application designed to better connect visitors to local businesses and events in a safe and stress free manner. Localé will also include local area safety and evacuation information to improve community safety. Data generated can be feed back to the council to aid in council and civil defense planning. The end goal of our idea is to have a well designed app with a great user experience, while accomplishing our core concepts well.",
         "tags": ["Teamwork"],
+        "identifiers": ["Teamwork"],
         "link": "https://2019.hackerspace.govhack.org/projects/local"
     },
     {
         "title": "GovHack 2020 Team io Liv City",
         "Description": "LivCity is an application that allows a city to gain community sources information on selected areas. This app functions by an administrator or researcher selecting an area to question, this could be for example regarding air pollution, traffic, safety, waste and more. Using feedback from the community, the appropriate authorities can develop needed infrastructure in areas or appropriate social services, greatly improving the efficiency, usefulness, and bringing innovation to the community. ",
         "tags": ["Teamwork"],
+        "identifiers": ["Teamwork"],
         "link": "https://2020.hackerspace.govhack.org/projects/livcity"
     },  
     {
         "title": "MQTT Project",
         "Description": "This is an encrypted MQTT data transmission project as a part of an IoT project.",
         "tags": ["Python", "IoT"],
+        "identifiers": ["Python", "IoT"],
         "link": "https://github.com/FinnianHBLR/MQTT-Assessment-2"
     },
     {
         "title": "PC Builder Memory",
         "Description": "A simple card matching game in C#. This was written to learn the programming language C#.",
         "tags": ["C#"],
+        "identifiers": ["CSharp"],
         "link": "https://github.com/FinnianHBLR/PCBuilderMemory"
     },
     {
         "title": "My Portfolio",
         "Description": "This portfolio uses mapping, and mapping within that to acomplish most of its functions. These mapping functions corispond to JSON files holding all the information for future ease of use! It was also developed with mobile devices in mind.",
-        "tags": ["React", "HTML-CSS", "JavaScript", "Front-End"],
+        "tags": ["React", "HTML & CSS", "JavaScript", "Front End"],
+        "identifiers": ["React", "HTML-CSS", "JavaScript", "Front-End"],
         "link": "https://github.com/FinnianHBLR/finnianhblr-portfolio-react"
     }
 

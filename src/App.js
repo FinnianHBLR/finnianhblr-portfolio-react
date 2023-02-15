@@ -1,36 +1,66 @@
-import logo from './logo.svg';
 import './App.scss';
 import projects from './data/projects.json';
 import skills from './data/skills.json';
-import gitLogo from './images/github.svg';
+import experience from './data/experience.json'
 import { Helmet } from "react-helmet";
 
 function App() {
 
+  const renderExperienceCards = () => {
+    return (
+      <div className='cardsContainer'>
+        {experience.map((data, cardKey) => {
+          return(
+            <div className='card'>
+              <div className='cardContainer'>
+              <h1>{data.experience}</h1>
+              <h4>{data.time}</h4>
+              <p>{data.description}</p>
 
+
+              {<div className='littleCardContainer'>{data.tags.map((data, tagKey) => {
+                return(
+                  /*Access experience.identifiers array to get the links (replaced spaces and special chacters) and put tags on the titles. */
+                  <div className={"littleCard " + "colorDef" + experience[cardKey].identifiers[tagKey]}><a href={'#'+experience[cardKey].identifiers[tagKey]}><p>{data}</p></a></div>
+
+                )
+              })
+              }
+              </div>
+              }
+              </div>
+            </div>
+          )
+          
+      })      
+      }
+      </div>
+    )
+  }
 
   // Render multiple cards. Use "projects" import, then map that to data - as well as a key.
   const renderProjectCards = () => {
     return (
-      <div className='projectCardsContainer'>
+      <div className='cardsContainer'>
 
-        {projects.map((data, key) => {
+        {projects.map((data, cardKey) => {
           return (
-            <div className='projectCard'>
-              <div className='projectCardContainer'>
+            <div className='card'>
+              <div className='cardContainer'>
                 <h1>{data.title}</h1>
                 {/*<img src="placeHolder" alt={"PLACEHOLDER " + data.title} />*/}
                 <p>{data.Description}</p>
                 <a href={data.link} target="_blank">{data.link}</a>
-
+                
 
                 {/* For each item, map the array of skills used in the project. Also using colorDef+data to refer to a background color for little cards depending on the skill*/}
                 <div className='littleCardContainer'>
-                  {data.tags.map((data, key) => {
+                  {data.tags.map((data, tagKey) => {
                     return (
                       /* Set a tag to div element of skill, so it links to the skill when clicked. */
-                      <div className={"littleCard " + "colorDef" + data}><a href={'#'+data}><p>{data}</p></a></div>
-                    )
+                      /*Access experience.identifiers array to get the links (replaced spaces and special chacters) and put tags on the titles. */
+                      <div className={"littleCard " + "colorDef" + projects[cardKey].identifiers[tagKey]}><a href={'#'+projects[cardKey].identifiers[tagKey]}><p>{data}</p></a></div>
+                    );
                   }
                   )
                   }
@@ -49,13 +79,13 @@ function App() {
 
   const renderSkillCards = () => {
     return (
-      <div className='projectCardsContainer'>
+      <div className='cardsContainer'>
 
         {skills.map((data, key) => {
           return (
-            <div className='projectCard'>
-
-              <div className='skillLogoContainer' id={data.skill}>
+            <div className='card'>
+              {/* Use identifiers so special characters and spaces are replaced. */}
+              <div className='skillLogoContainer' id={data.identifier}>
                 <div className={'skillLogo' + data.image}></div>
               </div>
               <div className='skillSummaryContainer'>
@@ -71,10 +101,6 @@ function App() {
       </div>
     )
   }
-  function Header() {
-    // Import result is the URL of your image
-    return <img src={gitLogo} className="gitLogo" alt="Logo" width="40" height="40" />;
-  }
 
   return (
     <div className="App">
@@ -83,7 +109,7 @@ function App() {
       </Helmet>
 
       <section class="top-nav">
-        <div className='title'>
+        <div className='navBarTitle'>
           Finnian Logan-Riley Portfolio
         </div>
         <input id="menu-toggle" type="checkbox" />
@@ -92,23 +118,34 @@ function App() {
         </label>
         <ul class="menu">
           <li><a href="#home" >Home</a></li>
+          <li><a href='#experienceSection'>Experience</a></li>
           <li><a href="#projectSection">Projects</a></li>
           <li><a href="#skillSection">Skills</a></li>
           <li><a href='https://github.com/FinnianHBLR' target="_blank">My GitHub</a></li>
+          <li><a href='https://www.linkedin.com/in/finnian-logan-riley/' target="_blank">Linkedin</a></li>
           <li><a href='#contact'>Contact</a></li>
         </ul>
       </section>
 
       <div id="home">
         <header className="App-header">
-          <h1 className=''>Hello! My name is Finnian and this is my portfolio.</h1>
+          <h1 className='fader'>Portfolio</h1>
+          <p className='fader'> - Finnian Logan-Riley</p>
+
+          <div className='personalStatementContainer'>
+        <h4 className='faderSlow'>I am a software developer and I am a recent graduate of both Furtwangen University in Germany (BSc,
+          International Business Information Systems), and the Eastern Institute of Technology in New Zealand (BCS,
+          Intelligent Systems)</h4>
+      </div>
         </header>
       </div>
-      <div className='personalStatementContainer'><h1>Personal statement</h1>
-        <h3>I am a software developer and I am a recent graduate of both Furtwangen University in Germany (BSc,
-          International Business Information Systems), and the Eastern Institute of Technology in New Zealand (BCS,
-          Intelligent Systems)</h3>
-      </div>
+          <div className='experiences' id='experienceSection'>
+            <div className='experienceTitle'>
+            <h1>Experience</h1>
+            <hr></hr>
+            </div>
+              {renderExperienceCards()}
+          </div>
       <div className='projects' id='projectSection'>
         <div className='projectTitle'>
           <h1>Notable Projects</h1>

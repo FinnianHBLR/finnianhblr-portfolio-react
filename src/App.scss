@@ -19,9 +19,67 @@ hr {
   border-radius: 5px;
   background: linear-gradient(to left, #ffd220, #C73E1D);
 }
-.title{
-  font-size: 30px;
+
+
+.navBarTitle{
+  font-size: calc(20px + 1vmin);
+
 }
+
+.fader{
+  width: 80%;
+  height: 100%;
+  position: relative;
+  -webkit-animation: moving 2s;
+  animation: moving 2s;
+
+}
+
+// ---- Fading browser support ----- //
+@-webkit-keyframes moving {
+  from {bottom: -80px;}
+  to {bottom: 0px;}
+}
+
+@keyframes moving {
+  from {bottom: -80px;}
+  to {bottom: 0px;}
+}
+// ---- Fading browser support ----- //
+
+.faderSlow{
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s; /* Firefox < 16 */
+   -ms-animation: fadein 4s; /* Internet Explorer */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+       animation: fadein 4s;
+}
+
+// ----- vv Animation Browser support vv --------//
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+// -----  ^^ Animation Browser support ^^ --------//
 
 .App-header {
   background-image: url("images/titleBackground.png");
@@ -34,11 +92,16 @@ hr {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
+}
+
+.App-header h1 {
+  /* Add underline under title. */
+  text-decoration: underline rgb(255, 255, 255);
 }
 
 
-// ------------------------
-// https://codepen.io/alvarotrigo/pen/MWEJEWG
+// https://codepen.io/alvarotrigo/pen/MWEJEWG - Adapted from.
 .top-nav {
   display: flex;
   flex-direction: row;
@@ -49,10 +112,14 @@ hr {
   color: #FFF;
   height: 70px;
   padding: 1em;
+
   /* Make NavBar Sticky. */
   position: fixed;
   top: 0;
   width: 100%;
+
+  /* Set z-index to 1 so the nav-bar does not go behind the blur effect on background. */
+  z-index: 1;
 }
 
 .menu {
@@ -125,7 +192,7 @@ hr {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1314px) {
   .menu-button-container {
     display: flex;
   }
@@ -171,16 +238,24 @@ hr {
  
   }
 
-
 }
 
 .personalStatementContainer{
-  padding: 10px;
-  background-color: #e88242;
-  color: #ffffff;
+  /* Add effects to personal statement below title. */
+  padding-inline: 10%;
+  margin-top: 15px;
+  margin-bottom: -30px;
+
+  backdrop-filter: blur(10px);
+  border: 1px solid rgb(255, 187, 0);
 }
 
 // ------------------------
+
+.experiences {
+  background-color: #409fa4;
+  padding: 20px;
+}
 
 .projects {
   /* Background color behind project cards. */
@@ -188,21 +263,23 @@ hr {
   /* Padding is needed as shadows extend over the edge and the background goes white */
   padding: 20px;
 }
+
 .skills {
   /* Background color behind skills cards. */
-  background-color: #95B8D1;
+  background-color: #409fa4;
   /* Padding is needed as shadows extend over the edge and the background goes white */
   padding: 20px;
 }
 
+
 /* Apply padding to titles of skills and projects. Also make titles white. */
-.projectTitle, .skillTitle{
+.projectTitle, .skillTitle, .experienceTitle {
   padding: 30px;
   color: #f2f2f2;
 
 }
 
-.projectCardsContainer {
+.cardsContainer {
   // Center items in the cards container and add a flex warp.
   justify-content: center;
   display: flex;
@@ -210,7 +287,7 @@ hr {
 }
 
 /* Card with shadow */
-.projectCard {
+.card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   /* Rounded corners */
@@ -225,18 +302,19 @@ hr {
     font-size: large;
   }
 }
-.projectCard:hover {
+
+.card:hover {
   /* When hover, change shadow... cool! */
   box-shadow: 0 50px 160px 0 rgba(0,0,0,0.2);
 }
 
-.projectCard img {
+.card img {
     /* Rounded corners */
   border-radius: 5px 5px 0 0;
   width: 100%;
 }
 
-.projectCardContainer {
+.cardContainer {
   padding: 2px 16px;
 }
 
@@ -318,6 +396,18 @@ footer {
   }
 }
 
+.colorDefIndigenous-development{
+  background-color: #f00000;
+  /* Fix long text overflowing. */
+  padding: 5px;
+  width: min-content;
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
+}
+
 
 .colorDefAI {
   background-color: #37da37;
@@ -339,6 +429,20 @@ footer {
   }
 }
 
+.colorDefIT-Management {
+  background-color: #6fe2c1;
+  
+  /* Fix long text overflowing. */
+  padding: 5px;
+  width: min-content;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
+}
+
 .colorDefTypeScript {
   background-color: #0080f0;
 
@@ -348,6 +452,17 @@ footer {
       color: #FFF;
   }
 }
+
+.colorDefNodeJS {
+  background-color: #5ede42;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #000000;
+  }
+}
+
 
 .colorDefPython {
   background-color: #f7e91f;
@@ -481,7 +596,7 @@ footer {
   }
 }
 
-.colorDefC\#{
+.colorDefCSharp{
   /* Use escape character for selector. */
   background-color: #ff00f7;
 
@@ -495,6 +610,16 @@ footer {
 
 .colorDefDocker{
   background-color: #1997ec;
+
+  a:hover, a:visited, a:link, a:active
+  {
+      text-decoration: none;
+      color: #FFF;
+  }
+}
+
+.colorDefDatabases{
+  background-color: #ec1963;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -524,62 +649,73 @@ footer {
   height: 30%;
   content: url("images/javaLogo.png");
 }
-.skillLogoIoT {
-/* Logo For Java. */
-  width: 13%;
-  height: 13%;
-  content: url("images/C++.svg");
+
+
+.skillLogoNodeJS {
+  /* Logo For NodeJS. */
+    width: 17%;
+    height: 17%;
+    content: url("images/node.svg");
+}
+
+.skillLogoDatabases{
+  /* Logo For MongoDB and SQL. */
+  width: 65%;
+  height: 65%;
+  content: url("images/mongosql.png");
 }
 
 .skillLogoC\+\+ {
-  /* Logo For Java. */
+  /* Logo For C++. */
     width: 13%;
     height: 13%;
     content: url("images/C++.svg");
-  }
+}
 
 .skillLogoAI {
-  /* Logo For Java. */
+  /* Logo For AI. */
   width: 20%;
   height: 20%;
   content: url("images/AI.svg");
 }
 
 .skillLogoIoT {
-  /* Logo For Java. */
+  /* Logo For IoT. */
     width: 13%;
     height: 13%;
     content: url("images/IoT.svg");
   }
 
 .skillLogoDocker {
-  /* Logo For Java. */
+  /* Logo For Docker. */
   width: 30%;
   height: 30%;
   content: url("images/Docker.svg");
 }
 
 .skillLogoRemote-Build {
-  /* Logo For Java. */
+  /* Logo For Remote-Build. */
   width: 10%;
   height: 10%;
   content: url("images/Remote-Build.png");
 }
 
 .skillLogoHTML-CSS{
+  /* Logo For CSS. */
   width: 25%;
   height: 25%;
   content: url("images/htmlcss.png");
 }
 
 .skillLogoCSharp {
-  /* Logo For Java. */
+  /* Logo For C#. */
   width: 15%;
   height: 15%;
   content: url("images/CSharp.png");
 }
 
 .skillLogoPython{
+  /* Logo For Python */
   width: 15%;
   height: 15%;
   content: url("images/pythonLogo.svg");
@@ -587,36 +723,42 @@ footer {
 }
 
 .skillLogoTypeScript{
+  /* Logo For TypeScript */
   width: 13%;
   height: 13%;
   content: url("images/Typescript.svg");
 }
 
 .skillLogoTeamwork{
+  /* Logo For Teamwork. */
   width: 13%;
   height: 13%;
   content: url("images/handShake.png");
 }
 
 .skillLogoJavaScript{
+  /* Logo For JavaScript. */
   height: 13%;
   width: 13%;
   content: url("images/JavaScript.png");
 }
 
 .skillLogoReact{
+  /* Logo For React. */
   height: 13%;
   width: 13%;
   content: url("images/React.svg");
 }
 
 .skillLogoLua{
+  /* Logo For Lua. */
   height: 15%;
   width: 15%;
   content: url("images/Lua.svg");
 }
 
 .skillLogoAWS-S3 {
+  /* Logo For AWS S3. */
   height: 15%;
   width: 15%;
   content: url("images/AWS-S3.svg");

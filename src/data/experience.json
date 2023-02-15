@@ -1,0 +1,30 @@
+[
+    {
+        "experience": "Fingermark",
+        "description": "test",
+        "time": "Nov 2020 - Feb 2021",
+        "tags": ["Full Stack", "HTML & CSS", "JavaScript", "NodeJS", "Teamwork", "Databases"],
+        "identifiers": ["Full-Stack", "HTML-CSS", "JavaScript", "NodeJS", "Teamwork", "Databases"]
+    },
+    {
+        "experience": "Hasting District Council",
+        "description": "Installing new Mitel software based phone system under Economic Growth & Organisation Improvement.Installing new Mitel software based phone system under Economic Growth & Organisation Improvement.",
+        "time": "Jan 2020 - Feb 2020",
+        "tags": ["Teamwork"],
+        "identifiers": ["Teamwork"]
+    },{
+        "experience": "Ngā Toki Whakarururanga",
+        "description": "Indigenous development",
+        "time": "",
+        "tags": ["IT Management", "Indigenous development"],
+        "identifiers": ["IT-Management", "Indigenous-development"]
+    },
+    {
+        "experience": "Te Pae Tawhiti",
+        "description": "test",
+        "time": "",
+        "tags": ["IT Management", "Indigenous development"],
+        "identifiers": ["IT-Management", "Indigenous-development"]
+    }
+
+]
