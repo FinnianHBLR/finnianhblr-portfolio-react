@@ -349,6 +349,14 @@ footer {
 .colorDefJava{
   background-color: #e88242;
 
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   a:hover, a:visited, a:link, a:active
   {
       text-decoration: none;
@@ -358,6 +366,14 @@ footer {
 
 .colorDefCSS{
   background-color: #2f50f5;
+  
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   a:hover, a:visited, a:link, a:active
   {
@@ -366,8 +382,17 @@ footer {
   }
 }
 
+
 .colorDefHTML-CSS{
   background-color: #C73E1D;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   a:hover, a:visited, a:link, a:active
   {
@@ -378,6 +403,15 @@ footer {
 
 .colorDefReact{
   background-color: #00BAF0;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -388,6 +422,15 @@ footer {
 
 .colorDefAWS-S3{
   background-color: #f06c00;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -401,6 +444,17 @@ footer {
   /* Fix long text overflowing. */
   padding: 5px;
   width: min-content;
+
+     
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
   a:hover, a:visited, a:link, a:active
   {
       text-decoration: none;
@@ -411,7 +465,16 @@ footer {
 
 .colorDefAI {
   background-color: #37da37;
-  
+     
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
   a:hover, a:visited, a:link, a:active
   {
       text-decoration: none;
@@ -421,6 +484,15 @@ footer {
 
 .colorDefData {
   background-color: #6fe2c1;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -432,6 +504,17 @@ footer {
 .colorDefIT-Management {
   background-color: #6fe2c1;
   
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
   /* Fix long text overflowing. */
   padding: 5px;
   width: min-content;
@@ -439,12 +522,21 @@ footer {
   a:hover, a:visited, a:link, a:active
   {
       text-decoration: none;
-      color: #FFF;
+      color: #000000;
   }
 }
 
 .colorDefTypeScript {
   background-color: #0080f0;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -455,6 +547,15 @@ footer {
 
 .colorDefNodeJS {
   background-color: #5ede42;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -466,6 +567,15 @@ footer {
 
 .colorDefPython {
   background-color: #f7e91f;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -477,6 +587,15 @@ footer {
 
 .colorDefPandas {
   background-color: #241058;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -487,6 +606,15 @@ footer {
 
 .colorDefSklearn {
   background-color: #ffa500;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -497,6 +625,15 @@ footer {
 
 .colorDefNumPy {
   background-color: #268dd1;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -509,6 +646,15 @@ footer {
 .colorDefLua {
   background-color: #0b0b71;
   color: #FFF;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -520,6 +666,15 @@ footer {
 
 .colorDefNextJS{
   background-color: black;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -528,7 +683,18 @@ footer {
 
   }
 }
-.colorDefFront-End{  background-color: #66e855;
+
+.colorDefFront-End{  
+  background-color: #66e855;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -536,7 +702,17 @@ footer {
       color: #FFF;
 
   }}
-.colorDefBack-End{  background-color: #480a0a;
+.colorDefBack-End{  
+  background-color: #480a0a;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -545,7 +721,17 @@ footer {
 
   }}
   
-.colorDefFull-Stack{  background-color: #bed140;
+.colorDefFull-Stack{  
+  background-color: #bed140;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -556,6 +742,15 @@ footer {
 
 .colorDefIoT {
   background-color: #800080;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -568,6 +763,15 @@ footer {
 
 .colorDefJavaScript{
   background-color: #efd511;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -578,6 +782,15 @@ footer {
 
 .colorDefRemote-Build{
   background-color: #b00101;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -588,6 +801,15 @@ footer {
 
 .colorDefTeamwork{
   background-color: #ff3c00;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -599,6 +821,15 @@ footer {
 .colorDefCSharp{
   /* Use escape character for selector. */
   background-color: #ff00f7;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -610,6 +841,15 @@ footer {
 
 .colorDefDocker{
   background-color: #1997ec;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -620,6 +860,15 @@ footer {
 
 .colorDefDatabases{
   background-color: #ec1963;
+   
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   a:hover, a:visited, a:link, a:active
   {
@@ -665,7 +914,7 @@ footer {
   content: url("images/mongosql.png");
 }
 
-.skillLogoC\+\+ {
+.skillLogoCPlusPlus {
   /* Logo For C++. */
     width: 13%;
     height: 13%;
@@ -729,12 +978,14 @@ footer {
   content: url("images/Typescript.svg");
 }
 
+
 .skillLogoTeamwork{
   /* Logo For Teamwork. */
-  width: 13%;
-  height: 13%;
-  content: url("images/handShake.png");
+  // width: 13%;
+  // height: 13%;
+  // content: url("images/handShake.png");
 }
+
 
 .skillLogoJavaScript{
   /* Logo For JavaScript. */
