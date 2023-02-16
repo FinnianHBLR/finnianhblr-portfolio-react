@@ -3,131 +3,131 @@
         "skill": "Full Stack",
         "identifier": "Full-Stack",
         "image": "Full-Stack",
-        "summary": "I have experience writing full stack applicatuions. This is as I have written applciations' back-end and front-end. Amoung personal project I completed an internship with the comapny Fingermark to create a fullstack applicaiton using MongoDB, ExspressJS, Socket.io HTML, CSS and JavaScript."    },
+        "summary": "I have experience writing full-stack applications. This is as I have written applications back-end and front-end. Among personal projects, significantly I completed an internship with the company Fingermark to create a full-stack application using MongoDB, ExspressJS, Socket.io HTML, CSS and JavaScript. I enjoy full-stack development the most as I get to work with a range of different technologies."
+    },
     {
         "skill": "Back End",
         "identifier": "Back-End",
         "image": "Back-End",
-        "summary": "For back-end development I have experience in back-end frame works such as NodeJS, ExpressJs and NextJS for React development. I have also gained experience in other back-end technologies such as MongoDB and SQL."
+        "summary": "Back-end development is something I am comfortable with. I have worked in, back-end frameworks such as NodeJS, AWS, Socket.io, Express.JS and NextJS for React development. I have also gained experience in other back-end database technologies such as MongoDB and MySQL."
     },
     {
         "skill": "Front End",
         "identifier": "Front-End",
         "image": "Front-End",
-        "summary": "I have signifficant experience in front-end development. Since 2019 I have been activly creating web pages. Later on I have gained gained experience in technolgoies such as React."
+        "summary": "I have significant experience in front-end development. Since 2019 I have been actively creating websites. Later on, I gained experience in technologies such as React to keep up with modern development. For styling and hypertext languages I feel very comfortable with CSS and HTML as well as other front-end libraries such as JQuery and Bootstrap."
     },
     {
         "skill": "Teamwork",
         "identifier": "Teamwork",
         "image": "Teamwork",
-        "summary": "I have worked in many team projects, from AI robot cars to multiple Hackathons. I consider myself a hard working team player and do my best in these enviroments. I also have no problems getting a group together, leading and present our results."
+        "summary": "I have worked on many team projects often leading. From AI robot cars to multiple Hackathons. I am a hard-working team player and do my best in these environments. I also have no problems getting a group together, leading and presenting our results. Success is important to me, especially when working with other people."
     },{
         "skill": "Indigenous development",
         "identifier": "Indigenous-development",
         "image": "Indigenous-development",
-        "summary": ""
+        "summary": "I am from the iwi Ngāti Kahungunu and I have been fortunate to grow up on the land of my tīpuna. I believe Māori are under-represented in technology. I feel it is important to represent Māori values and tikanga in technology, namely around processes and protocols, leadership, language, environment and community."
     },
     {
         "skill": "IT Management",
         "identifier": "IT-Management",
         "image": "IT-Management",
-        "summary": ""
+        "summary": "During my work I have worked in IT management. I found it very rewarding, as I could work with people who are not as technologically savvy and get their organisations up to speed. Although, I want to get involved in more technical projects as this is my passion."
     },
     {
         "skill": "AI and Data",
         "identifier": "AI",
         "image": "AI",
-        "summary": "During my studies I studied extensivly in the aritifical intilligence field. This is as it is always been a passion of mine. I have exsperince in models such as linear and logistic regression, KNN, K-nearest neighbor, XGBoost, data cleaning, exploring and repair. During these projects I have gianed exstensive experience in Python libaries such as Pandas, NumPy, Pandas, Sklearn, SciPy, matplotlib,"
+        "summary": "Artificial intelligence has as it is always been a passion of mine. During my studies, I studied extensively in the artificial intelligence field. I have experience in many different types of models, data cleaning, exploration and repair. I have also learnt and am comfortable with many Pythion libraries such as Pandas, NumPy, Pandas, Sklearn, SciPy, and Matplotlib."
     },
     {
         "skill": "Python",
         "identifier": "Python",
         "image": "Python",
-        "summary": "I have become particually proficiant in Python, espically in data anlyis and AI. I have been creating Python projects since 2018."
+        "summary": "I have become proficient in Python, especially in data analysis and artificial intelligence. I have been creating Python projects since 2018, starting with robotics and Python is my go-to language for data-related projects."
     },
     {
         "skill": "JavaScript",
         "identifier": "JavaScript",
         "image": "JavaScript",
-        "summary": "I have used JavaScript very extensivly in my Internship, going as far as to make custom libaries to use internally. and other projects. I have also used NodeJS in many projects. I use this language often."
+        "summary": "I used JavaScript extensively in my projects and my Internship, going as far as to make custom libraries to use internally. I have also used NodeJS in many projects. JavaScript is one of my favourite languages to use."
     },
     {
         "skill": "TypeScript",
         "identifier": "TypeScript",
         "image": "TypeScript",
-        "summary": "As I like typed languages and JavaScript is not I have got plenty of devlopment time with TypeScript as well as JavaSCript."
+        "summary": "I prefer typed languages because of the issues that adding data types solves, specifically with TypeScript. I have had plenty of development time with TypeScript and can switch between TypeScript and JavaScript. Although, I would like to get more development time with TypeScript."
     },
     {
         "skill": "NodeJS",
         "identifier": "NodeJS",
         "image": "NodeJS",
-        "summary": "I have worked often with NodeJS as to me it is simmilar to Python. I often use NodeJS with the Express.JS library"
+        "summary": "I have worked often with NodeJS as to me it is similar to Python. I often use NodeJS with the Express.JS library creating APIs for my software. NodeJS was also used in my internship extensively to create an API and webserver."
     },
     {
         "skill": "Databases",
         "identifier": "Databases",
         "image": "Databases",
-        "summary": "I have worked with MongoDB in my internship extensivly. I have also learnt MYSQL duing my studies."
+        "summary": "I have worked with MongoDB in my internship extensively. I have also learnt MYSQL during my studies. I not only have learnt about the database themselves, but I have also learnt and practised database management and design."
     },
     {
         "skill": "Java",
         "identifier": "Java",
         "image": "Java",
-        "summary": "For OOP languages, Java is the language I have the most experience in. I have been able to best use these skills in my recent Java AWS S3 project."
+        "summary": "For object-oriented languages, I have the most experience in Java. I have been able to best use these skills in my recent Java AWS S3 project. Java is one of my favourite languages to develop in. I know there are areas of Java in which I could improve, but I don’t believe this would be difficult."
     },
     {
         "skill": "AWS S3",
         "identifier": "AWS-S3",
         "image": "AWS-S3",
-        "summary": "To learn software concpets I apply them to airports! As they are systems that can be virtualised, with easily recognisable objects. For AWS-S3 I found it relatively simple to apply this concept. I was able to create a simulator in Java that can  keep a live save of virtual airport activities online. I can't wait to use this tech on future jobs/projects."
+        "summary": "To learn software concepts I apply them to airports! As they are systems with recognisable objects that can be virtualised. For AWS-S3, I found it relatively simple to apply this concept. I was able to create a simulator in Java that can keep a live save of virtual airport activities online. I want to be able to use this tech in future jobs and projects."
     },
     {
         "skill": "React / NextJS",
         "identifier": "React",
         "image": "React",
-        "summary": "As I wanted to keep up to date with the latest tech I learnt React. I am still not at an expert level, but I have created many React applications using many different areas of React devlopment such as States, Hooks and component driven applications."
+        "summary": "As I wanted to keep up to date with the latest tech I learnt React. I am still not at an expert level, but I have created many React applications using many different areas of React development such as States, Hooks and component-driven applications. I also have used NextJS and feel comfortable with the concepts of NextJs development. React and NextJS are technologies I want to continue using in future."
     },
     {
         "skill": "C#",
         "identifier": "CSharp",
         "image": "CSharp",
-        "summary": "Another OOP language is C#. I have used this langauge somewhat over the last few years, although I have the least experience in this language."
+        "summary": "C# is an OOP language I have got moderate experience with. But C# is a language I want to get more experience with, but my better experience with Java contributes to this as Java and C# share many similarities."
     },
     {
         "skill": "IoT",
         "identifier": "IoT",
         "image": "IoT",
-        "summary": "I have specialsed in the IoT field during my studies at the Eastern Institute of Technology. My internship was also in the field of IoT as we used conputer vision in security cameras to create health and safety software."
+        "summary": "My specialisation is in the IoT (Internet of Things) field. During my studies at the Eastern Institute of Technology, I majored in intelligence, which included IoT. My internship was also in IoT, as we used computer vision in security cameras to create health and safety software. For other areas in IoT, I’ve worked with Arduinos and sensors and PLCs (programmable logic controllers)."
     },
     {
         "skill": "Lua",
         "identifier": "Lua",
         "image": "Lua",
-        "summary": "I learnt Lua for fun! I found it easy to learn as it is not too differnt from other languages I already knew. As Lua was used in the OpenComputers mod for the game Minecraft, and I wanted to automate my electrical grid I needed a computerised manager. This system was required to manage two nuclear reactors, a gas-turbine and a diesel start-up generator. Although realitivly simple sounding, it's more complex than it seemed. But extremly fun!"
+        "summary": "Lua was fun and easy to learn, as it is not too different from other languages I already knew. I leant Lua because it was used in the OpenComputers mod for the game Minecraft. I wanted to automate my electrical grid and I needed a computerised manager. This system was required to manage two nuclear reactors, a gas turbine and a diesel start-up generator. Although relatively simple sounding, it's more complex than it seemed. But extremely fun!"
     },
     {
         "skill": "C++",
         "identifier": "CPlusPlus",
         "image": "CPlusPlus",
-        "summary": "I have used C++ in many Arduino projects. Studing with a major in intilligent systems I coded a lot of Ardiono C++ for various robots and IoT projects. Although I will note that this is an Arduino flavor of C++ and not exactly the same as C++."
+        "summary": "I have used C++ in many Arduino projects. Studying with a major in intelligent systems, I created a lot of Arduino C++ code for various robots and IoT projects. Although, I will note that this is an Arduino flavour of C++ and not the same as C++."
     },
     {
         "skill": "HTML & CSS",
         "identifier": "HTML-CSS",
         "image": "HTML-CSS",
-        "summary": "HTML and CSS is the first coding I ever did, creating a simple web page! Ever since 2017 I have been using these languages."
+        "summary": "HTML and CSS is the first coding I ever did, creating a simple web page! Ever since 2017, I have been using these CSS and HTML."
     },    
     {
         "skill": "Docker",
         "identifier": "Docker",
         "image": "Docker",
-        "summary": "I made sure to put time into learning Docker, as well as using it at my internship. I have learnt to make my own Docker files for React and NodeJS projects. Although I want to expand to Java programs and learning kubernetes."
+        "summary": "I put time into learning Docker on personal projects and at my software development internship at Fingermark. I have learnt to make my own Docker files for React and NodeJS projects. I want to expand my knowledge to Docker for Java programs and learn Kubernetes, but I don’t believe these will be too difficult. "
     },
     {
         "skill": "Github Remote-Build",
         "identifier": "Remote-Build",
         "image": "Remote-Build",
-        "summary": "For my projects I have wanted to learn how to build remotly. This is why I went and learnd how to do this with GitHub actions. This was done with the NASA React Fetcher project. One issie is that I am not yet able to figure out how to test that code!"
+        "summary": "For my projects, I have wanted to learn how to build remotely. This remote building is why I learned how to do this with GitHub actions. Auto building on GitHub was used for the NASA React Fetcher project."
     }
-
 ]

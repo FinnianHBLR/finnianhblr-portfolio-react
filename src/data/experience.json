@@ -1,28 +1,28 @@
 [
     {
         "experience": "Fingermark",
-        "description": "test",
+        "description": "This internship was my second during my studies. I worked at the AI software development company Fingermark based in Havelock North, Hawke's Bay. I worked building a full stack application with a docker MongoDB database back end, NodeJS with express.js controller and an HTML/CSS/JavaScript front end. I found this internship very rewarding and learnt a lot.",
         "time": "Nov 2020 - Feb 2021",
         "tags": ["Full Stack", "HTML & CSS", "JavaScript", "NodeJS", "Teamwork", "Databases"],
         "identifiers": ["Full-Stack", "HTML-CSS", "JavaScript", "NodeJS", "Teamwork", "Databases"]
     },
     {
         "experience": "Hasting District Council",
-        "description": "Installing new Mitel software based phone system under Economic Growth & Organisation Improvement.Installing new Mitel software based phone system under Economic Growth & Organisation Improvement.",
+        "description": "The first internship I worked was with the Hastings District Council. This internship was installing a new Mitel software-based phone system under Economic Growth & Organisation Improvement. I was fortunate to work with a very well-working team at this internship. Here I enjoyed training staff how to use this software.",
         "time": "Jan 2020 - Feb 2020",
         "tags": ["Teamwork"],
         "identifiers": ["Teamwork"]
     },{
         "experience": "Ngā Toki Whakarururanga",
-        "description": "Indigenous development",
-        "time": "",
+        "description": "My most recent work is with Ngā Toki Whakarururanga. This organisation is a Māori indigenous-led organisation to uphold te Tiriti o Waitangi in New Zealand international trade deals, as well as providing te Tiriti o Waitangi assessments on other laws by the New Zealand goverment. My job was to manage the website and other technologies inside this organisation.",
+        "time": "Jan 2023 - Ongoing",
         "tags": ["IT Management", "Indigenous development"],
         "identifiers": ["IT-Management", "Indigenous-development"]
     },
     {
         "experience": "Te Pae Tawhiti",
-        "description": "test",
-        "time": "",
+        "description": "I have volunteered at the organisation te Pae Tawhiti. This organisation provides community-driven rehabilitation services to the Wairoa region of New Zealand. I am experienced with technology, therefore, I gladly put my services to work to make sure their technology was up to a satisfactory standards and working correctly. This volunteer work was the most rewarding of my word I have done, as it had a direct impact on the rural community in Wairoa.",
+        "time": "2020-2022",
         "tags": ["IT Management", "Indigenous development"],
         "identifiers": ["IT-Management", "Indigenous-development"]
     }
