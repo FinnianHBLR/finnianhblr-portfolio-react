@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/finnianhblr-portfolio-react/static/css/main.72145b6b.css",
-    "main.js": "/finnianhblr-portfolio-react/static/js/main.9d44ec62.js",
+    "main.css": "/finnianhblr-portfolio-react/static/css/main.0efda518.css",
+    "main.js": "/finnianhblr-portfolio-react/static/js/main.9c7b55b4.js",
     "static/js/787.a9d5af7f.chunk.js": "/finnianhblr-portfolio-react/static/js/787.a9d5af7f.chunk.js",
     "static/media/titleBackground.png": "/finnianhblr-portfolio-react/static/media/titleBackground.74c500e20f1e6e604939.png",
     "static/media/Remote-Build.png": "/finnianhblr-portfolio-react/static/media/Remote-Build.561f1f0de0421e7499d0.png",
@@ -9,7 +9,6 @@
     "static/media/AI.svg": "/finnianhblr-portfolio-react/static/media/AI.b1d00822d6f4223ae865.svg",
     "static/media/mongosql.png": "/finnianhblr-portfolio-react/static/media/mongosql.2d77a14f2400fef615c7.png",
     "static/media/CSharp.png": "/finnianhblr-portfolio-react/static/media/CSharp.e2e4b2f0ba8f3e1196fc.png",
-    "static/media/handShake.png": "/finnianhblr-portfolio-react/static/media/handShake.30f2bb1a922d8d9b3a6d.png",
     "static/media/JavaScript.png": "/finnianhblr-portfolio-react/static/media/JavaScript.266bd9fb2663dcc057b4.png",
     "static/media/pythonLogo.svg": "/finnianhblr-portfolio-react/static/media/pythonLogo.90a37ab8213f531de737.svg",
     "static/media/node.svg": "/finnianhblr-portfolio-react/static/media/node.dd47e26ed1d7dddf018e.svg",
@@ -21,12 +20,12 @@
     "static/media/Typescript.svg": "/finnianhblr-portfolio-react/static/media/Typescript.9ad81d2e09b9cd2265cd.svg",
     "index.html": "/finnianhblr-portfolio-react/index.html",
     "static/media/React.svg": "/finnianhblr-portfolio-react/static/media/React.928f956d9c8ebcffb98a.svg",
-    "main.72145b6b.css.map": "/finnianhblr-portfolio-react/static/css/main.72145b6b.css.map",
-    "main.9d44ec62.js.map": "/finnianhblr-portfolio-react/static/js/main.9d44ec62.js.map",
+    "main.0efda518.css.map": "/finnianhblr-portfolio-react/static/css/main.0efda518.css.map",
+    "main.9c7b55b4.js.map": "/finnianhblr-portfolio-react/static/js/main.9c7b55b4.js.map",
     "787.a9d5af7f.chunk.js.map": "/finnianhblr-portfolio-react/static/js/787.a9d5af7f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72145b6b.css",
-    "static/js/main.9d44ec62.js"
+    "static/css/main.0efda518.css",
+    "static/js/main.9c7b55b4.js"
   ]
 }
