@@ -130,7 +130,7 @@ function App() {
       <div id="home">
         <header className="App-header">
           <h1 className='fader'>Portfolio</h1>
-          <p className='fader'> - Finnian Logan-Riley</p>
+          <p className='fader'>Finnian Logan-Riley</p>
 
           <div className='personalStatementContainer'>
         <h4 className='faderSlow'>I am a software developer and I am a recent graduate of both Furtwangen University in Germany (BSc,
