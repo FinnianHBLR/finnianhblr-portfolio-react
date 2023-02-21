@@ -137,25 +137,28 @@ function App() {
           International Business Information Systems), and the Eastern Institute of Technology in New Zealand (BCS,
           Intelligent Systems)</h4>
       </div>
+      <div className='learnMoreBtn'>
+        <a href='#experienceSection'>Learn more</a>
+      </div>
         </header>
       </div>
           <div className='experiences' id='experienceSection'>
             <div className='experienceTitle'>
-            <h1>Experience</h1>
+            <p>Experience</p>
             <hr></hr>
             </div>
               {renderExperienceCards()}
           </div>
       <div className='projects' id='projectSection'>
         <div className='projectTitle'>
-          <h1>Notable Projects</h1>
+          <p>Notable Projects</p>
           <hr></hr>
         </div>
         {renderProjectCards()}
       </div>
       <div className='skills' id='skillSection'>
         <div className='skillTitle'>
-          <h1>Skills</h1>
+          <p>Skills</p>
           <hr></hr>
         </div>
         {renderSkillCards()}
