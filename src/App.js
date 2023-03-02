@@ -10,8 +10,8 @@ function App() {
     return (
     <div className='cardReturnBtns'>
       <a className='tooltip' href="#home" >⌂<span className="tooltiptext">Home</span></a>
-      <a className='tooltip' href='#projectSection'>⚙<span className='tooltiptext'>Projects</span></a>
       <a className='tooltip' href='#experienceSection'>⛃<span className='tooltiptext'>Experience</span></a>
+      <a className='tooltip' href='#projectSection'>⚙<span className='tooltiptext'>Projects</span></a>
       <a className='tooltip' href='#skillSection'>✎<span className='tooltiptext'>Skills</span></a>
     </div>
     )
