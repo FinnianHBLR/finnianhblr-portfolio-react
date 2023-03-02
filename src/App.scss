@@ -352,7 +352,7 @@ hr {
   
   h1 {
     /* Make sure returnBtns icons don't hit title*/
-    margin-top: 25px;
+    margin-top: 32px;
   }
 }
 
@@ -395,7 +395,6 @@ hr {
 
 
 }
-
 
 /* Tooltip for returnBtns */
 .tooltip {
@@ -1275,6 +1274,8 @@ footer {
   width: 30%;
   height: 30%;
   content: url("images/javaLogo.png");
+  /* Make sure images do not touch return icons on mobile. */
+  padding-top: 30px;
 }
 
 
@@ -1283,6 +1284,8 @@ footer {
     width: 17%;
     height: 17%;
     content: url("images/node.svg");
+    /* Make sure images do not touch return icons on mobile. */
+    padding-top: 30px;
 }
 
 .skillLogoDatabases{
@@ -1290,6 +1293,8 @@ footer {
   width: 65%;
   height: 65%;
   content: url("images/mongosql.png");
+  /* Make sure images do not touch return icons on mobile. */
+  padding-top: 30px;
 }
 
 .skillLogoCPlusPlus {
@@ -1297,6 +1302,8 @@ footer {
     width: 13%;
     height: 13%;
     content: url("images/C++.svg");
+    /* Make sure images do not touch return icons on mobile. */
+    padding-top: 30px;
 }
 
 .skillLogoAI {
@@ -1304,6 +1311,8 @@ footer {
   width: 20%;
   height: 20%;
   content: url("images/AI.svg");
+  /* Make sure images do not touch return icons on mobile. */
+  padding-top: 30px;
 }
 
 .skillLogoIoT {
@@ -1311,6 +1320,8 @@ footer {
     width: 13%;
     height: 13%;
     content: url("images/IoT.svg");
+    /* Make sure images do not touch return icons on mobile. */
+    padding-top: 30px;
   }
 
 .skillLogoDocker {
@@ -1318,6 +1329,8 @@ footer {
   width: 30%;
   height: 30%;
   content: url("images/Docker.svg");
+  /* Make sure images do not touch return icons on mobile. */
+  padding-top: 30px;
 }
 
 .skillLogoRemote-Build {
@@ -1325,6 +1338,8 @@ footer {
   width: 10%;
   height: 10%;
   content: url("images/Remote-Build.png");
+  /* Make sure images do not touch return icons on mobile. */
+  padding-top: 30px;
 }
 
 .skillLogoHTML-CSS{
@@ -1332,6 +1347,8 @@ footer {
   width: 25%;
   height: 25%;
   content: url("images/htmlcss.png");
+  /* Make sure images do not touch return icons on mobile. */
+  padding-top: 30px;
 }
 
 .skillLogoCSharp {
@@ -1339,6 +1356,8 @@ footer {
   width: 15%;
   height: 15%;
   content: url("images/CSharp.png");
+  /* Make sure images do not touch return icons on mobile. */
+  padding-top: 30px;
 }
 
 .skillLogoPython{
@@ -1346,6 +1365,8 @@ footer {
   width: 15%;
   height: 15%;
   content: url("images/pythonLogo.svg");
+  /* Make sure images do not touch return icons on mobile. */
+  padding-top: 30px;
 
 }
 
@@ -1354,6 +1375,8 @@ footer {
   width: 13%;
   height: 13%;
   content: url("images/Typescript.svg");
+  /* Make sure images do not touch return icons on mobile. */
+  padding-top: 30px;
 }
 
 
@@ -1370,6 +1393,8 @@ footer {
   height: 13%;
   width: 13%;
   content: url("images/JavaScript.png");
+  /* Make sure images do not touch return icons on mobile. */
+  padding-top: 30px;
 }
 
 .skillLogoReact{
@@ -1377,6 +1402,8 @@ footer {
   height: 13%;
   width: 13%;
   content: url("images/React.svg");
+  /* Make sure images do not touch return icons on mobile. */
+  padding-top: 30px;
 }
 
 .skillLogoLua{
@@ -1384,6 +1411,8 @@ footer {
   height: 15%;
   width: 15%;
   content: url("images/Lua.svg");
+  /* Make sure images do not touch return icons on mobile. */
+  padding-top: 30px;
 }
 
 .skillLogoAWS-S3 {
@@ -1391,6 +1420,8 @@ footer {
   height: 15%;
   width: 15%;
   content: url("images/AWS-S3.svg");
+  /* Make sure images do not touch return icons on mobile. */
+  padding-top: 30px;
 }
 
 
