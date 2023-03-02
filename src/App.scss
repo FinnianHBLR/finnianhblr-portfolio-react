@@ -349,6 +349,11 @@ hr {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  
+  h1 {
+    /* Make sure returnBtns icons don't hit title*/
+    margin-top: 25px;
+  }
 }
 
 /* Card with shadow */
@@ -372,6 +377,54 @@ hr {
   /* When hover, change shadow... cool! */
   box-shadow: 0 50px 160px 0 rgba(0,0,0,0.2);
 }
+
+.cardReturnBtns{
+/* Btn that sits on top right of card. */
+  float: right;
+  margin-right: 10px;  
+  position: absolute;
+
+
+  a {
+    text-decoration: none;
+    color: rgb(220, 213, 213);
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  
+
+
+}
+
+
+/* Tooltip for returnBtns */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0.653);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
 
 .card img {
     /* Rounded corners */
@@ -417,6 +470,10 @@ footer {
 .colorDefJava{
   background-color: #e88242;
 
+  /* Fix long text overflowing. */
+  padding: 5px;
+
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -444,6 +501,10 @@ footer {
 .colorDefCSS{
   background-color: #2f50f5;
   
+  /* Fix long text overflowing. */
+  padding: 5px;
+
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -470,6 +531,9 @@ footer {
 .colorDefHTML-CSS{
   background-color: #C73E1D;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -494,6 +558,10 @@ footer {
 .colorDefReact{
   background-color: #00BAF0;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -519,6 +587,9 @@ footer {
 .colorDefAWS-S3{
   background-color: #f06c00;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -574,6 +645,9 @@ footer {
 .colorDefAI {
   background-color: #37da37;
      
+  /* Fix long text overflowing. */
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -599,6 +673,10 @@ footer {
 .colorDefData {
   background-color: #6fe2c1;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -623,8 +701,12 @@ footer {
 
 .colorDefIT-Management {
   background-color: #6fe2c1;
-  
-   
+
+  /* Fix long text overflowing. */
+  padding: 5px;
+  /* Keep at min size */
+  width: min-content;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -633,11 +715,6 @@ footer {
     align-items: center;
   }
 
-
-
-  /* Fix long text overflowing. */
-  padding: 5px;
-  width: min-content;
 
   a:hover, a:visited, a:link, a:active
   {
@@ -655,6 +732,10 @@ footer {
 .colorDefTypeScript {
   background-color: #0080f0;
    
+  /* Fix long text overflowing. This requires different def because of its sizing. */
+  width: min-content;
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -680,6 +761,9 @@ footer {
 .colorDefNodeJS {
   background-color: #5ede42;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -706,6 +790,10 @@ footer {
 .colorDefPython {
   background-color: #f7e91f;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -733,6 +821,9 @@ footer {
 .colorDefPandas {
   background-color: #241058;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -758,6 +849,9 @@ footer {
 .colorDefSklearn {
   background-color: #ffa500;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -783,6 +877,9 @@ footer {
 .colorDefNumPy {
   background-color: #268dd1;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -810,6 +907,10 @@ footer {
   background-color: #0b0b71;
   color: #FFF;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -836,6 +937,9 @@ footer {
 .colorDefNextJS{
   background-color: black;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -862,6 +966,9 @@ footer {
 .colorDefFront-End{  
   background-color: #66e855;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -884,9 +991,13 @@ footer {
     transition: all 0.8s
   }
 }
+
 .colorDefBack-End{  
   background-color: #480a0a;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -913,6 +1024,10 @@ footer {
 .colorDefFull-Stack{  
   background-color: #bed140;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -939,6 +1054,9 @@ footer {
 .colorDefIoT {
   background-color: #800080;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -966,12 +1084,18 @@ footer {
 .colorDefJavaScript{
   background-color: #efd511;
    
+  /* Fix long text overflowing. This requires different def because of its sizing. */
+  width: min-content;
+  padding: 5px;
+
   a {
+    
     /*Make link cover while div and center text */
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+  
   }
 
 
@@ -991,6 +1115,9 @@ footer {
 .colorDefRemote-Build{
   background-color: #b00101;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -1016,6 +1143,9 @@ footer {
 .colorDefTeamwork{
   background-color: #ff3c00;
    
+  /* Fix long text overflowing. This requires different def because of its sizing. */
+  width: min-content;
+  padding: 5px;
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -1042,6 +1172,10 @@ footer {
   /* Use escape character for selector. */
   background-color: #ff00f7;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -1068,6 +1202,9 @@ footer {
 .colorDefDocker{
   background-color: #1997ec;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -1093,6 +1230,9 @@ footer {
 .colorDefDatabases{
   background-color: #ec1963;
    
+  /* Fix long text overflowing. */
+  padding: 5px;
+
   a {
     /*Make link cover while div and center text */
     height: 100%;
@@ -1252,3 +1392,5 @@ footer {
   width: 15%;
   content: url("images/AWS-S3.svg");
 }
+
+
