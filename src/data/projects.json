@@ -7,7 +7,7 @@
         "link": "https://github.com/FinnianHBLR/NASA-React-Fetcher"
     },{
         "title": "NASA React Fetcher 2",
-        "Description": "Learning is a process, and I had learnt much from my first NASA React fetcher. This is the second iteration of my NASA React Fetcher project. This version allows for user sessions to govern access to data. When a client visits the app it creates a session ID that is then used to access all other data.",
+        "Description": "I had learnt much from my first NASA React fetcher. This is the second iteration of my NASA React Fetcher project. This version allows for user sessions to govern access to data. When a client visits the app it creates a session ID that is then used to access all other data.",
         "tags": ["Full Stack", "JavaScript", "HTML & CSS", "React", "NextJS"],
         "identifiers": ["Full-Stack", "JavaScript", "HTML-CSS", "React", "React"],
         "link": "https://github.com/FinnianHBLR/nasa-react-fetcher-2"
