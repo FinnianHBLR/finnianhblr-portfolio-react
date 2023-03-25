@@ -1,4 +1,10 @@
-[
+[   {
+        "title": "Coracoid social medai platform",
+        "Description": "Coracoid is a social media application I built using React and Firebase. This project is named Coracoid as it is an essential bone for birds to fly. This project is an example of my skills of creating advanced React applications with login and data management systems. Plus, it was very enjoyable to develop.",
+        "tags": ["React", "Full stack", "HTML & CSS", "JavaScript"],
+        "identifiers": ["React", "Full-Stack", "HTML-CSS", "JavaScript"],
+        "link": "https://github.com/FinnianHBLR/coracoid"
+    },
     {
         "title": "NASA React Fetcher",
         "Description": "This project is a tool created to access the publically accessible NASA API. I love NASA, that's why and there is lots of cool API stuff I want to show people who aren't a techie. From pulling the latest image of Earth, to satellite locating and plotting, it's here!",
