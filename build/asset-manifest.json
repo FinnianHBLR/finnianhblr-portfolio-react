@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c8510468.css",
+    "main.js": "/static/js/main.941e2bf2.js",
+    "static/js/787.a9d5af7f.chunk.js": "/static/js/787.a9d5af7f.chunk.js",
+    "static/media/titleBackground.png": "/static/media/titleBackground.cd1c864ec28c3d82ce7a.png",
+    "static/media/Remote-Build.png": "/static/media/Remote-Build.561f1f0de0421e7499d0.png",
+    "static/media/htmlcss.png": "/static/media/htmlcss.4c3401acd538498e2eec.png",
+    "static/media/AI.svg": "/static/media/AI.b1d00822d6f4223ae865.svg",
+    "static/media/mongosql.png": "/static/media/mongosql.2d77a14f2400fef615c7.png",
+    "static/media/CSharp.png": "/static/media/CSharp.e2e4b2f0ba8f3e1196fc.png",
+    "static/media/JavaScript.png": "/static/media/JavaScript.266bd9fb2663dcc057b4.png",
+    "static/media/pythonLogo.svg": "/static/media/pythonLogo.90a37ab8213f531de737.svg",
+    "static/media/node.svg": "/static/media/node.dd47e26ed1d7dddf018e.svg",
+    "static/media/Docker.svg": "/static/media/Docker.74f5e987475b2b47195b.svg",
+    "static/media/AWS-S3.svg": "/static/media/AWS-S3.cc38dbe9487d55943d42.svg",
+    "static/media/IoT.svg": "/static/media/IoT.bb387e2842394cdf514f.svg",
+    "static/media/Lua.svg": "/static/media/Lua.94b96a6c7f17217f9d35.svg",
+    "static/media/C++.svg": "/static/media/C++.2441702dffa95ca3c92c.svg",
+    "static/media/Typescript.svg": "/static/media/Typescript.9ad81d2e09b9cd2265cd.svg",
+    "index.html": "/index.html",
+    "static/media/React.svg": "/static/media/React.928f956d9c8ebcffb98a.svg",
+    "main.c8510468.css.map": "/static/css/main.c8510468.css.map",
+    "main.941e2bf2.js.map": "/static/js/main.941e2bf2.js.map",
+    "787.a9d5af7f.chunk.js.map": "/static/js/787.a9d5af7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8510468.css",
+    "static/js/main.941e2bf2.js"
+  ]
+}
